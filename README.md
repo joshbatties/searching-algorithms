@@ -50,6 +50,5 @@ Edges (E): Each edge in the graph is considered once, ensuring that all nodes re
 
 Space Complexity:
 The space complexity of DFS is O(V), excluding the space required to store the graph itself. This complexity stems from the storage requirements of the stack and the visited list, which in the worst-case scenario, might need to hold all vertices of the graph.
-
 Visited List: Utilizes O(V) space to track whether each vertex has been visited.
 Call Stack: In the deepest possible scenario, the stack might contain a path from the root to a leaf node in a tree, or a long unbroken chain of vertices in a graph. This scenario also results in O(V) space complexity.
