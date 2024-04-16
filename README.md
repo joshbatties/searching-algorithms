@@ -34,10 +34,10 @@ I have implemented the DFS algorithm with the graph represented as a list of lis
 The algorithm initiates from a specified start node and explores as deep as possible into the graph's branches before backtracking.
 
 A step-by-step implementation of DFS:
-Begin with marking the initial node as visited and push it onto the stack.
-Pop a node from the stack to examine it and mark it as visited.
-Retrieve a list of adjacent nodes for the popped node. For each adjacent node that has not been visited, mark it as visited and push it onto the stack.
-Repeat steps 2 and 3 until the stack is empty.
+1. Begin with marking the initial node as visited and push it onto the stack.
+2. Pop a node from the stack to examine it and mark it as visited.
+3. Retrieve a list of adjacent nodes for the popped node. For each adjacent node that has not been visited, mark it as visited and push it onto the stack.
+4. Repeat steps 2 and 3 until the stack is empty.
 
 Assumptions
 The DFS implementation assumes the graph is represented as a list of lists, with each sublist containing the indices of adjacent nodes. These indices correspond to nodes in a 0-indexed manner. 
