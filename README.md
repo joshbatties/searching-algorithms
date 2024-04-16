@@ -3,7 +3,7 @@ A collection of all the searching algorithms introduced in Monash University's F
 
 # Breadth-First-Search
 Breadth-first search (BFS) is an algorithm used for traversing or searching tree or graph data structures.
-I have implemented the BFS algorithm with the graph represented as a list of lists.
+I have implemented the BFS algorithm with the graph represented as a list of lists (adjacency list).
 It starts at a selected node (the "root" in a tree, or any arbitrary node in a graph) and explores all of the neighbor nodes at the present depth (same distance from the source)prior to moving on to the nodes at the next depth level. BFS is particularly useful for finding the shortest path on unweighted graphs.
 
 A step by step implementation of BFS:
@@ -30,7 +30,7 @@ Queue: In the worst case, when the graph is fully connected, the queue could hol
 
 # Depth-First-Search
 Depth-first search (DFS) is an algorithm used for traversing or searching tree or graph data structures.
-I have implemented the DFS algorithm with the graph represented as a list of lists.
+I have implemented the DFS algorithm with the graph represented as a list of lists (adjacency list).
 The algorithm initiates from a specified start node and explores as deep as possible into the graph's branches before backtracking.
 
 A step-by-step implementation of DFS:
