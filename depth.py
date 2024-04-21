@@ -1,6 +1,6 @@
 def depth_first_search(graph, start):
     """
-    Initiates a depth-first search on a graph from a specified start node.
+    Performs a depth-first search on a graph from a specified start node.
 
     Parameters:
     - graph (list of list of int): The graph, represented as a list where each index is a node and each element is a list of that node's neighbors.
@@ -18,7 +18,7 @@ def depth_first_search(graph, start):
 def depth_first_search_recursive(graph, vertex, visited):
     # Mark the current node as visited.
     visited[vertex] = True
-    # Print the node.(for order of traversal)
+    # Print the node (for order of traversal).
     print(vertex)
     # For each neighbor of the current node, if the neighbor has not been visited yet, call the function recursively.
     for v in graph[vertex]:
